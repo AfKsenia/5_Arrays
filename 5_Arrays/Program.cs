@@ -16,7 +16,7 @@ namespace _5_Arrays
             double S = 0;
             for (i = 0; i < m; i++)
             {
-                Console.WriteLine("Введите число {0}", i + 1);
+                Console.WriteLine("Введите число {0} из {1} ", i + 1, m);
                 array[i] = Convert.ToDouble(Console.ReadLine());
             }
             for (i = 0; i < m; i++)
